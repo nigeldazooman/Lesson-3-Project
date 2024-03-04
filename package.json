@@ -1,5 +1,5 @@
 {
-  "name": "Playground",
+  "name": "playground",
   "version": "2.0.0",
   "description": "",
   "main": "cypress.config.js",
@@ -15,9 +15,5 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^13.6.6"
-  },
-  "bugs": {
-    "url": "https://github.com/nigeldazooman/Playground/issues"
-  },
-  "homepage": "https://github.com/nigeldazooman/Playground#readme"
+  }
 }
