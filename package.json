@@ -1,8 +1,8 @@
 {
-  "name": "my-awesome-project",
+  "name": "Playground",
   "version": "2.0.0",
-  "description": "A brief description of my project",
-  "main": "index.js",
+  "description": "",
+  "main": "cypress.config.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,10 +14,6 @@
   "author": "Brad",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7",
     "cypress": "^13.6.6"
   },
   "bugs": {
