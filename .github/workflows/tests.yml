@@ -17,7 +17,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
 
-                    - name: ZAP Baseline Scan
+name: ZAP Baseline Scan
   uses: zaproxy/action-baseline@v0.11.0
   with:
     # GitHub Token to create issues in the repository
