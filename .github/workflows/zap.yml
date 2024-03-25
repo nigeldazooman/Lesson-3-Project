@@ -1,4 +1,4 @@
-name: Your Workflow Name
+name: OWASP ZAP Baseline Scan
 on:
   push:
     branches:
@@ -10,4 +10,4 @@ jobs:
     - name: OWASP ZAP Baseline Scan
       uses: zaproxy/action-baseline@v0.4.0
       with:
-        target: 'https://juice-shop.herokuapp.com/'
+        target: 'https://juice-shop.herokuapp.com'
