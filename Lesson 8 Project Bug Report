@@ -1,0 +1,19 @@
+Lesson 8 Final Project Bug Report
+
+Vulnerability: "Cross-Domain Misconfiguration"
+Vulnerability Description: This warning indicates that the web application has misconfigured Cross-Origin Resource Sharing (CORS) policies, potentially allowing unauthorized cross-domain access to sensitive resources.
+Steps to Reproduce:
+  1.
+Impact: Severe
+Potential Mitigation: We recommend performing the following mitigation steps.
+  1. Review CORS Configuration: Ensure that CORS policies are properly configured to restrict cross-origin requests to trusted domains and resources. Use specific origins instead of wildcards whenever possible.
+  2. Implement Secure CORS Policies: Apply appropriate CORS headers and policies to enforce restrictions on cross-origin requests based on the web application's security requirements.
+  3. Validate Cross-Origin Requests: Implement server-side validation and authorization checks for cross-origin requests to prevent unauthorized access to sensitive resources.
+  4. Regular Security Testing: Perform regular security testing, including web application security scans, to identify and remediate cross-domain misconfigurations and other security issues.
+
+
+Vulnerability:
+Vulnerability Description:
+Steps to Reproduce:
+Impact:
+Potential Mitigation:
