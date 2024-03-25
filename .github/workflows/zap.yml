@@ -2,12 +2,12 @@ name: Your Workflow Name
 on:
   push:
     branches:
-main
+     - main
 jobs:
   your_job_name:
     runs-on: ubuntu-latest
     steps:
-name: OWASP ZAP Baseline Scan
-        uses: zaproxy/action-baseline@v0.4.0
-        with:
-          target: 'https://juice-shop.herokuapp.com/#'
+    - name: OWASP ZAP Baseline Scan
+      uses: zaproxy/action-baseline@v0.4.0
+      with:
+        target: 'https://juice-shop.herokuapp.com/#'
