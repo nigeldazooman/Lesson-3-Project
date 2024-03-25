@@ -11,3 +11,5 @@ jobs:
       uses: zaproxy/action-baseline@v0.4.0
       with:
         target: 'https://juice-shop.herokuapp.com'
+    - name: Install dependencies
+        run: npm install @octokit/rest
