@@ -12,8 +12,14 @@ Potential Mitigation: We recommend performing the following mitigation steps.
   4. Regular Security Testing: Perform regular security testing, including web application security scans, to identify and remediate cross-domain misconfigurations and other security issues.
 
 
-Vulnerability:
-Vulnerability Description:
+Vulnerability: "Cross-Domain JavaScript Source File Inclusion"
+Vulnerability Description: This warning refers to a security vulnerability where an attacker can include JavaScript files from a different domain into a web page hosted on another domain. 
+  This vulnerability can lead to various types of attacks, including Cross-Site Scripting (XSS) and data theft.
 Steps to Reproduce:
-Impact:
-Potential Mitigation:
+  1.
+Impact: Severe
+Potential Mitigation: We recommend performing the following mitigation steps.
+  1. Implement Proper CORS Policies: Use Cross-Origin Resource Sharing (CORS) headers to control which domains can include JavaScript files from your domain. Configure CORS policies to allow access only from trusted domains.
+  2. Content Security Policy (CSP): Implement CSP headers to specify which domains are allowed to execute scripts on your web pages. 
+                                    CSP provides an additional layer of defense against XSS attacks and unauthorized script execution.
+  3. Avoid Third-Party Scripts: Be cautious when including third-party JavaScript files in your web pages. Only use scripts from trusted sources and ensure they follow security best practices.
